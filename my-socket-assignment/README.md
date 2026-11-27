@@ -18,17 +18,17 @@
    cd exercise-1
    
 * 2.สั่งรันคอนเทนเนอร์ทั้งหมดผ่าน Docker Compose:
-```bash
-docker-compose up --build
+   ```bash
+   docker-compose up --build
 
 * 3.การเข้าใช้งาน Client:
 เปิด Terminal ใหม่เพื่อเข้าคอนเทนเนอร์ Client 1:
-```bash
-docker exec -it chat_client1 python client.py
+   ```bash
+   docker exec -it chat_client1 python client.py
 
 * 4.เปิด Terminal ใหม่เพื่อเข้าคอนเทนเนอร์ Client 2:
-```bash
-docker exec -it chat_client2 python client.py
+   ```bash
+   docker exec -it chat_client2 python client.py
 
 ## แบบฝึกหัดที่ 2: เว็บแอปพลิเคชัน Flask และ Socket Server
 
