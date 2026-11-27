@@ -24,7 +24,10 @@
 
 ### ขั้นตอนการเริ่มทำงาน (How to run)
 1.เปิด Terminal และเข้าไปที่โฟลเดอร์แบบฝึกหัดที่ 2:
-cd exercise-2
+   ```bash
+   cd exercise-2
 2.สั่งรัน Docker Compose:
-docker-compose up --build
+   ```bash
+   docker-compose up --build
+
 เปิดเว็บเบราว์เซอร์ไปที่ลิงก์: http://localhost:5000 เพื่อทำการทดสอบส่งข้อความ
