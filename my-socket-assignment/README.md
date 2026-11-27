@@ -26,8 +26,9 @@
 1.เปิด Terminal และเข้าไปที่โฟลเดอร์แบบฝึกหัดที่ 2:
    ```bash
    cd exercise-2
+   ```bash
 2.สั่งรัน Docker Compose:
    ```bash
    docker-compose up --build
-
+   ```bash
 เปิดเว็บเบราว์เซอร์ไปที่ลิงก์: http://localhost:5000 เพื่อทำการทดสอบส่งข้อความ
